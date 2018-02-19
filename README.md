@@ -1,6 +1,12 @@
 # BouncyBall-windows
 My Bouncy Ball game for Windows
 
+## Running the Game:
+to run the game you need to intall the Visual C++ Redistributable Packages (https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads).
+
+If the package is installed you simply need to put the run BallGame3D.exe in the folder which contains the lvl/ pics/ and lib/ subdirectories.
+
+## Additional Info
 I Developed this game serveral years ago in order to learn how to use openGL.
 Now i put it on GitHub for everybody to download (and improve), so feel free to download, share and modify anything you want to!
 Sadly i didn't use git at that time, so there is only this one commit.

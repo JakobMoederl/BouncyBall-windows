@@ -1,0 +1,38 @@
+textures {
+	pics/ball.tga
+	pics/StoneBlock.tga
+	pics/SpikeBlockRound.tga
+	pics/Spikes.tga
+	pics/enemy.tga
+}
+
+background {
+	pics/Background.tga
+	683x384
+	repeat 5
+}
+
+symbols {
+	S StoneBlock 2
+	X SpikeBlock 3 {
+		spiketexture 4
+	}
+	o Smiley 1
+	1 Player 1
+	e Enemy 5 {
+		speed 5
+		rotation_on
+		turn_on_cliff
+	}
+}
+
+level {
+  e   e
+o SSSSSSSSe
+SSSSSSSSSSSSSSSSSSS
+
+1                    SS
+SSS                 SSS
+SSSS       XX      SSSS
+SSSSSe     XXe    SSSSS
+}

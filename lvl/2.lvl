@@ -1,0 +1,37 @@
+textures {
+	pics/eichriedler.tga
+	pics/StoneBlock.tga
+	pics/SpikeBlockRound.tga
+	pics/Spikes.tga
+	pics/zweimueller.tga
+}
+
+background {
+	pics/Background.tga
+	683x384
+	repeat 3
+}
+
+symbols {
+	S StoneBlock 2
+	X SpikeBlock 3 {
+		spiketexture 4
+	}
+	o Smiley 5
+	1 Player 1
+	s StoneBlock 2 {
+		jump_speed 14
+	}
+}
+
+level {
+
+      SSSSSSX      S
+     SSSSSSSX      S
+o   SSSSSSSSX      S
+SSSSSSSSSSSSX      So
+         XSSX ss   S
+         XSSX      S
+     SS  XXXX    SSS
+1    SS
+}

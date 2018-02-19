@@ -22,7 +22,7 @@ With an additional "repeat 1" you the background gets repeated instead of stretc
 ### Symbols
 In the symbols { ... } block the different objects used in the level layout are described.
 the syntax for a symbol block is <symbol> <type> <texture> [{ optional parameters }].
-* <symbol> is a single character used to represent the block in the level aylout
+* <symbol> is a single character used to represent the block in the level layout.
 * <type> is the type of the object. possible types are:
   - Player - Player start position and image.
   - Enemy - Enemy position and parameters.

@@ -1,9 +1,9 @@
-#Level Files
+# Level Files
 the game loads the levels according to their file name. 1.lvl as first level, 2.lvl as second and so on.
 
 the level file conists of two components. first the definition of blocks, textures, background etc. and secondly the layout of the blocks.
 
-##definitions.
+## definitions.
 
 there are several things that need to be defined in order to load everything correctly.
 * The textures used in this level
@@ -19,7 +19,7 @@ The Background image of this level int the background { ... } block. the first l
 The second line is the resolution of the image.
 With an additional "repeat 1" you the background gets repeated instead of stretched out over the whole level.
 
-###Symbols
+### Symbols
 In the symbols { ... } block the different objects used in the level layout are described.
 the syntax for a symbol block is <symbol> <type> <texture> [{ optional parameters }].
 * <symbol> is a single character used to represent the block in the level aylout
@@ -47,7 +47,7 @@ the syntax for a symbol block is <symbol> <type> <texture> [{ optional parameter
  SpikeBlock:
 spiketexture <number> - texture of the spikes of the block 
 
-##Layout
+## Layout
 the level {... } block contains the layout of the level. it should consist of lines with equal characters.
 every character stands for a position in the level. the possible characters are the characters defined in the symbols { ... } block and space for an empty area.
 Every Level must at least contain the symbol definition of the player, simley and StoneWall. The level layout must also contain atleast the player start position and one simley.

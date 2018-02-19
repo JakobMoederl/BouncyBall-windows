@@ -24,11 +24,11 @@ In the symbols { ... } block the different objects used in the level layout are 
 the syntax for a symbol block is <symbol> <type> <texture> [{ optional parameters }].
 * <symbol> is a single character used to represent the block in the level aylout
 * <type> is the type of the object. possible types are:
-  1. Player - Player start position and image.
-  2. Enemy - Enemy position and parameters.
-  3. Smiley - Simleys that the player has to collect.
-  4. StoneBlock - A Stone Wall/Block that the player cannot pass trough.
-  5. SpikeBlock - A Spike block that will kill the player if he touches it.
+  - Player - Player start position and image.
+  - Enemy - Enemy position and parameters.
+  - Smiley - Simleys that the player has to collect.
+  - StoneBlock - A Stone Wall/Block that the player cannot pass trough.
+  - SpikeBlock - A Spike block that will kill the player if he touches it.
  * <texture> is the line in the texture { ... } block that should be uesed as textures for this object.
  
  additionally you can add additional parameters by extending the block with curly brackets { ... }

@@ -4,6 +4,7 @@ textures {
 	pics/SpikeBlockRound.tga
 	pics/Spikes.tga
 	pics/enemy.tga
+	pics/StoneBlockSpecial.tga
 }
 
 background {
@@ -24,23 +25,26 @@ symbols {
 		rotation_on
 		turn_on_cliff
 	}
-	s StoneBlock 1 {
-		bounce_x 3
-		jump_speed 13
+	s StoneBlock 6 {
+		jump_speed 20
 	}
 }
 
 level {
-                   o
-                  SSS
-                  SSS
-                  SSSSS
-     o XXXe       SSSSS
-    SSSSSSSSSSSS  S
-        X         S      ss
-SS      X         S      ss
-SS      X   SSSSSSS    ssss
-SSSS    X   XXXXXXX    ssss
-      SSX            SSSSSS
-1     SSX            SSSSSS
+                    oS  eS
+                    SSSSSSSS     
+                                 X                          e     o
+                               SSSSS                     SSSSSSSSSS
+                                       SS   SSS    
+                                                   SS             XX
+                                                        o         XX
+                                               X        SSSS      XX
+o                                         o    X        SS        XX
+                         SSSSSSSSSSSSSSSSSS    X        SS        XX
+                        XX               XX  SSX        SS        XX
+X    1                XXXX               XX    X        SS        XX
+SSSSSSSSSSSSSSSSs  XXXXXXX               XX o  X        SS        XX
+            XXXXXXXXXXXXXX               XXSS           SS        XX
+                                         XX             SS        XX
+                                         XX       SS e        ss  XX
 }

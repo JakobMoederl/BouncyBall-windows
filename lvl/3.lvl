@@ -3,13 +3,14 @@ textures {
 	pics/StoneBlock.tga
 	pics/SpikeBlockRound.tga
 	pics/Spikes.tga
-	pics/zweimueller.tga
+	pics/ball.tga
+	pics/StoneBlockSpecial.tga
 }
 
 background {
-	pics/Background2.tga
+	pics/Background.tga
 	683x384
-	repeat 2
+	repeat 3
 }
 
 symbols {
@@ -19,14 +20,19 @@ symbols {
 	}
 	o Smiley 5
 	1 Player 1
+	s StoneBlock 6 {
+		jump_speed 14
+	}
 }
 
 level {
-                    XX   o 
-    SS  S   S   S  SSSSSSSSS
-SS               
-SS                
-SSSS          
-SSSS o   XXX  XXX  XX  XX  1
-SSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+      SSSSSSX      S
+     SSSSSSSX      S
+o   SSSSSSSSX      S
+SSSSSSSSSSSSX      So
+         XSSX ss   S
+         XSSX      S
+     SS  XXXX    SSS
+1    SS
 }

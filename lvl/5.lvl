@@ -1,0 +1,31 @@
+textures {
+	pics/ball.tga
+	pics/StoneBlock.tga
+	pics/SpikeBlockRound.tga
+	pics/Spikes.tga
+}
+
+background {
+	pics/Background2.tga
+	683x384
+	repeat 2
+}
+
+symbols {
+	S StoneBlock 2
+	X SpikeBlock 3 {
+		spiketexture 4
+	}
+	o Smiley 1
+	1 Player 1
+}
+
+level {
+                    XX   o 
+    SS  S   S   S  SSSSSSSSS
+SS               
+SS                
+SSSS          
+SSSS o   XXX  XXX  XX  XX  1
+SSSSSSSSSSSSSSSSSSSSSSSSSSSS
+}
